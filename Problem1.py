@@ -25,7 +25,7 @@ ele.click()
 wait=WebDriverWait(driver,10)
 
 # Locate the delivery input field and entering the pincode
-ele2=driver.find_element(By.ID,"Check Delivery").send_keys("302022")
+driver.find_element(By.ID,"Check Delivery").send_keys("302022")
 
 # explicit wait used to wait until the check button is enabled
 wait.until(EC.element_to_be_clickable((By.ID,"Check"))).click()
