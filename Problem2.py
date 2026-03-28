@@ -52,3 +52,6 @@ driver.find_element(By.XPATH, "//div[contains(text(),'ADD TO BAG')]").click()
 
 # close window
 driver.quit()
+
+
+
